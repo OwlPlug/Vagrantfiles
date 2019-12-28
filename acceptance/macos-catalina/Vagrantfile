@@ -1,0 +1,11 @@
+
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "ramsey/macos-catalina"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
+
+  end
+
+end
